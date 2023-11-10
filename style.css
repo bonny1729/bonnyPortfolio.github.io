@@ -8,22 +8,25 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background:#080808;
+    background: #dcb5ff;
     color: white;
 }
 
 
 #header{
-    width:100%;
-    height:100vh;
+    width: 100%;
+    height:100vh;  
     background-image:url(portfolio_images/laptop-background-modified.png); 
-    background-size: cover;
+    background-size:cover ;
     background-position: center;
     color:black;
     font-weight: italic bold;
 }
 .container{
     padding:10px 10%;
+}
+.header-text{
+    font-style: bold;
 }
 
 nav{
@@ -71,13 +74,13 @@ nav ul li a:hover::after{
     margin-top:20px;
 }
 .header-text h1 span{
-    color:#ff004f;
+    color:red;
 }
 
 /* about */
 #about{
     padding:80px 0;
-    color:#ababab;
+    color:black;
 }
 .row{
     display:flex;
@@ -119,7 +122,7 @@ nav ul li a:hover::after{
     content:'';
     width:0;
     height:3px;
-    background:#ff004f;
+    background:red;
     position:absolute;
     left:0;
     bottom:-8px;
@@ -134,7 +137,7 @@ nav ul li a:hover::after{
     margin:10px 0; 
 }
 .tab-contents ul li span{
-    color:#b54769;
+    color:red;
     font-size:14px;
 }
 .tab-contents{
@@ -180,7 +183,7 @@ nav ul li a:hover::after{
     display:inline-block;
 }
 .services-list div:hover{
-    background:#ff004f;
+    background:#f72d6d;
     transform:translateY(-10px);
 }
 
@@ -287,7 +290,7 @@ nav ul li a:hover::after{
     text-decoration:none;
     font-size:30px;
     margin-right:15px;
-    color:#ababab;
+    color:black;
     display:inline-block;
     transition:transform 0.5s;
 }
